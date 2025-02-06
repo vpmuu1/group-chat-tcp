@@ -2,10 +2,16 @@ Run the server.
 ```
 ./server.out  9999
 ```
-Run the client.
+Run the client1.
 ```
 nc 9999
 ```
+
+Run the client2.
+```
+nc 9999
+```
+
 
 
 # Group chat based on TCP client/server communication
