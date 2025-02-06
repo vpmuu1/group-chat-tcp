@@ -1,3 +1,13 @@
+Run the server.
+```
+./server.out  9999
+```
+Run the client.
+```
+nc 9999
+```
+
+
 # Group chat based on TCP client/server communication
 Group chat program, using  socket programming in C, where there is a single server and multiple clients. The server forwards a client's message to all the other clients. The communication between the server and the clients is based on TCP Client/Server Communication and multithreading.
 
@@ -37,7 +47,7 @@ gcc client.c -o client.out -pthread
 ```
 Run the server.
 ```
-./server.out & port_number
+./server.out  port_number
 ```
 Run the client.
 ```
